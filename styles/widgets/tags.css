@@ -1,0 +1,40 @@
+/* tags */
+@import url('common/colors.css');
+
+:root {
+    --background-color: var(white);
+    --color: var(--gray-dark);
+}
+
+.tags {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+}
+.tags h3{
+    text-align: center;
+    justify-items: center;
+    margin: 0;
+    padding: 0;
+    color: var(--color);
+}
+
+.tags ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 5px var(--margin);
+    color: var(--color);
+}
+
+.tags li {
+    display: inline-block;
+    background-color: var(--background-color);
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    margin: 2px;
+    padding: 2px;
+}

@@ -6,6 +6,8 @@
 
 @import url(widgets/bar.css);
 @import url(widgets/splitter.css);
+@import url(widgets/section.css);
+@import url(widgets/tags.css);
 
 @import url(layout/contact_form.css);
 @import url(layout/base.css);

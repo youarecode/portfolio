@@ -1,9 +1,16 @@
-
 @import url('common/colors.css');
+@import url('common/margins.css');
+
 .contact-form {
     text-align: left;
-    width: 70%;
-    margin: auto;
+    line-height: 1.7;
+
+}
+.contact-form > :nth-child(1) {
+    width: 50%;
+}
+.contact-form > :nth-child(2) {
+    margin-left: var(--margin-2);
 }
 
 /* links style*/

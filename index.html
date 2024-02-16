@@ -1,19 +1,22 @@
 <!DOCTYPE html>
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
+    
     <title>portfolio Eichenbaum</title>
 </head>
 
 <body>
     <!-- Top bar -->
-    <header>Welcome to my resume    </header>
-    <div class="top_bar">
+    <header>
+        <a href="https://github.com/youarecode/portfolio/" target="_blank">Feel free to peek inside this site</a>
+    </header>
+    <section class="top_bar">
         <br>
         <h1>Eichenbaum Daniel Matias</h1>
         <div class="splitter">
@@ -22,56 +25,166 @@
                 <h2>Machine Learning | Control Systems</h2>
             </div>
             <div> <!-- right -->
-                <h2>Trainee</h2>
+                <h2 style="text-align: right;">Trainee</h2>
             </div>
         </div>
-        
-        <!-- This is the contact bar -->
+    </section>
+    
+    <!-- Contact information -->
+    <section class="container">
         <div class="bar">
-            <div class="bar-line"></div>
-            <div class="bar-text">Contact</div>
-            <div class="bar-line"></div>
+            <div></div>
+            <div>Contact</div>
+            <div></div>
         </div>
-        
-        <!-- Contact information -->
         <div class="contact-form splitter">
             <div> <!-- left -->
-                <a href="mailto:eichenbaum.daniel@gmail.com">
+                <a href="mailto:eichenbaum.daniel@gmail.com" target="_blank">
                     <i class="fas fa-envelope"></i>Eichenbaum.daniel@gmail.com</a>
-                <br>
-                <a href="https://youarecode.github.io/portfolio/">
-                    <i class="fas fa-globe"></i>Portfolio</a>
+                    <br>
+                    <a href="https://youarecode.github.io/portfolio/" target="_blank">
+                        <i class="fas fa-globe"></i>Portfolio</a>
+                    </div>
+                    <div> <!-- right -->
+                        <a href="https://github.com/youarecode/" target="_blank">
+                            <i class="fab fa-github"></i>@youarecode
+                        </a>
+                        <br>
+                        <a href="https://www.linkedin.com/in/deichenbaum/" target="_blank">
+                            <i class="fab fa-linkedin"></i>@deichenbaum
+                        </a>
+                        <br>
+                        <a href="https://maps.app.goo.gl/VCVk1kyyt8aGJeoS9" target="_blank">
+                            <i class="fas fa-map-marker-alt"></i>Buenos Aires, Argentina
+                        </a>
+                    </div>
+                </div>
+    </div>
+</section>
+<section class="container">
+    <div class="bar">
+        <div></div>
+        <div>Education</div>
+        <div></div>
+    </div>
+    <div class="splitter">
+        <div>
+            <h1>Electronic Engineer</h1>
+            <h2 style="margin-bottom: 0;">Specialized in Signal Processing and Control Systems</h3>
+                <div class="bar-left">
+                    <div></div>
+                    <div>08/2023</div>
+                </div>
+                <h3>UBA Facultad de Ingenieria</h3>
             </div>
-            <div> <!-- right -->
-                <a href="https://github.com/youarecode/">
-                    <i class="fab fa-github"></i>@youarecode
-                </a>
+            <div class="tags">
+                <h3>Programming Languages</h3>
+                <ul style="--background-color: var(--green-light);">
+                    <li>Python</li> <li>Matlab/Simulink</li>
+                    <li>Bash</li> <li>HTML/CSS/Javascript</li>
+                    <li>C/C++</li>
+                </ul>              
                 <br>
-                <a href="https://www.linkedin.com/in/deichenbaum/">
-                    <i class="fab fa-linkedin"></i>@deichenbaum
-                </a>
+                <h3>Software Design</h3>
+                <ul style="--background-color: var(--violet-light);">
+                    <li>Agile</li> <li>OOP</li> <li>TDD</li>
+                    <li>GIT</li> <li>SOLID</li> <li>DDD</li>
+                </ul>              
                 <br>
-                <a href="https://maps.app.goo.gl/VCVk1kyyt8aGJeoS9">
-                    <i class="fas fa-map-marker-alt"></i>Buenos Aires, Argentina
-                </a>
+                <h3>Control Theory</h3>
+                <ul style="--background-color: var(--orange-light);">
+                    <li>Microcontrollers</li> <li>I2C/RS232/USB/SPI</li> <li>Circuit Design</li>
+                    <li>FPGA</li> <li>Signal Acquisition & Conditioning</li>
+                </ul>
+                <br>
+                <h3>Robotics</h3>
+                <ul style="--background-color: var(--yellow-light);">
+                    <li>ABB IRB140 arm control</li> <li>Path Interpolation</li>
+                </ul>
+                <h3>Signal Processing</h3>
+                <ul style="--background-color: var(--green-2);">
+                    <li>Digital Filtering & Design</li> <li>Image Processing</li>
+                    <li>FFT/STFT</li> <li>Noise</li> <li>Filter Banks</li> <li>PSD</li>
+                </ul>
+                <br>
+                <h3>Machine Learning</h3>
+                <ul style="--background-color: var(--red-2);">
+                    <li>Deep Models</li> <li>Classification</li> <li>Clustering</li>
+                    <li>Neural Networks</li> <li>NLP</li> <li>Regression</li> 
+                    <li>Dimensionality Reduction</li> <li>Computer Vision</li>
+                </ul>
+                <h3>Graph Models</h3>
+                <ul style="--background-color: var(--yellow-3);">
+                    <li>Finite State Machine</li> <li>Random Graph</li>
+                    <li>Hidden Markov Models</li> <li>Heuristic Search</li> 
+                </ul>
             </div>
         </div>
     </div>
-
-    <div class="container">
-        <p>Hello world!</p>    
-        <a href="#">Old repository</a>
-    </div>
-    <div class="container">
-        <h3>Projects</h3>
-        <h4>This resume</h4>
-        <h5>HTML/CSS</h5>
-    </div>
-    <div class="hide">
-        Planner AI.. 
-        - mongoDB
-        - Github projects
-        - Markdown
-        - Latex
-    </div>
+    <br>
+    <div class="splitter">
+        <div>
+            <h1>Electrical Technician</h1>
+            <h2 style="margin-bottom: 0;">Oriented in Industrial Electronics</h3>
+                <div class="bar-left">
+                    <div></div>
+                    <div>12/2011</div>
+                </div>
+                <h3>E.T. Nº9 Ing. Luis A. Huergo</h3>
+            </div>
+            <div class="tags">
+                <h3>Software</h3>
+                <ul style="--background-color: var(--green-light);">
+                    <li>Python</li> <li>Qbasic</li> <li>Visual Basic</li> <li>ASM</li>
+                </ul>              
+                <h3>Electronics</h3>
+                <ul style="--background-color: var(--violet-light);">
+                    <li>NI Spice</li> <li>PLC/Ladder</li> <li>Animatronic Robot</li>
+                    <li>Microcontrollers</li> <li>Robotics</li>
+                </ul>
+                <h3>Energy</h3>
+                <ul style="--background-color: var(--orange-light);">
+                    <li>Power electronics</li> <li>Energy Generation</li>
+                </ul>
+                <h3>Machinery</h3>
+                <ul style="--background-color: var(--yellow-3);">
+                    <li>CNC Lathe</li> <li>Welding</li> <li>Hand Crafting</li>
+                </ul>              
+            </div>
+        </div>
+    </section>
+    <br>
+    <section class="hide">
+        
+        <div class="container">
+            <p>Hello world!</p>    
+            <a href="#">Old repository</a>
+        </div>
+        <div class="container">
+            <h3>Projects</h3>
+            <h4>This resume</h4>
+            <h5>HTML/CSS</h5>
+        </div>
+        <div class="container">
+            <h3>Online Coursework</h3>
+            <h4>django tutorial</h4>
+            <h5>mit ocw</h5>
+            <h5>khan academy</h5>
+            <h5>stanford</h5>
+            <h5>hardvard</h5>
+        </div>
+        <div class="hide">
+            Planner AI.. 
+            - mongoDB
+            - Github projects
+            - Markdown
+            - Latex
+            - print document
+            - google forms
+        </div>
+    </section>
+<section style="text-align: center; padding-top: 10%;">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScdAJbd3uH8mxytBFvwDdC5V0YTfyxIGLFOnIT24_kMEI4vDg/viewform?embedded=true" width="640" height="1027" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+</section>
 </body>
+</html>

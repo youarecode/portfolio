@@ -6,13 +6,20 @@
     --gray-med: #838383; /*almost 255/2*/
     --white: #E0E0E0;
     
-    --pink: #DF3F78;
+    --red-2: #ECD5D5;
+    --red-light: #DF3F78;
+    --orange-light: #FFEEE8;
+    --green-light: #D1FFDA;
+    --green-2: #9EDBB7;
     --green: #4CAF50;
-    
+    --green-vivid: #27d332;
+    --yellow-light: #FFFFC2;
+    --yellow: #DDDE76;
+    --yellow-3: #ffc107; 
+    --violet-light: #DAD3DE;
+
     --red: #dc3545;
     --orange: #fd7e14;
-    --yellow: #ffc107;
-    --warning: #ffc107;
     --success: #28a745;
     --teal: #20c997;
     --cyan: #17a2b8;

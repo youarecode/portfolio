@@ -20,12 +20,14 @@ Split your div into 2 columns, left and right
 
 .splitter > div:nth-child(1) {
     margin: auto;
-    text-align: left;
+    max-width: 50%;
+    min-width: 50%;
+    /* text-align: left; */
     /* background-color: yellow; */
 }
 
 .splitter > div:nth-child(2) {
-    text-align: right;
+    /* text-align: right; */
     /* background-color: brown; */
     flex-grow: 1;
 }

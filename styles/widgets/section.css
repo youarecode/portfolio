@@ -1,0 +1,19 @@
+/* section.css */
+@import url('common/colors.css');
+.container {
+    width: 65%;
+    margin: auto;
+    color: var(--green);
+}
+
+.container h1 {
+    color: var(--yellow);
+    text-transform: uppercase;
+}
+.container h2 {
+    color: var(--white);
+}
+.container h3 {
+    color: var(--gray-med);
+    margin-top: -1%;
+}
