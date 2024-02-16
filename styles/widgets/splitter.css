@@ -15,7 +15,7 @@ Split your div into 2 columns, left and right
 .splitter {
     display: flex;
     align-items: center;
-    justify-items: center;
+    /* justify-items: center; */
 }
 
 .splitter > div:nth-child(1) {
@@ -28,6 +28,23 @@ Split your div into 2 columns, left and right
     text-align: right;
     /* background-color: brown; */
     flex-grow: 1;
+}
+
+.splitter-left {
+    display: flex;
+    align-items: center;
+    /* justify-items: center; */
+}
+.splitter-left > div:nth-child(1) {
+    margin: auto;
+    text-align: left;
+    width: 50%;
+    /* background-color: yellow; */
+}
+.splitter-left > div:nth-child(2) {
+    text-align: left;
+    flex-grow: 1;
+    /* background-color: brown; */
 }
 
 

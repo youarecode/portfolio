@@ -2,6 +2,8 @@
 
 :root{
     --margin: 5%;
+    --margin-2: 10%;
+    --margin-3: 15%;
 
     --breakpoint-xs: 0;
     --breakpoint-sm: 576px;
