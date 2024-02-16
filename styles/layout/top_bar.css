@@ -1,0 +1,25 @@
+/* header.css */
+@import url('common/colors.css');
+@import url('common/margins.css');
+
+.top_bar {
+    background-color: var(--gray-dark);
+    color: var(--dark-med);
+    text-align: left;
+    margin: 0%;
+    align-items: center;
+    margin: 0 var(--margin);
+}
+
+.top_bar h1{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 300%;
+    color: var(--green);
+}
+
+.top_bar h2{
+    font-weight: normal;
+    color: var(--gray-med);
+    text-transform: uppercase;
+}

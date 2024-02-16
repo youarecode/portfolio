@@ -1,0 +1,33 @@
+/* splitter.css
+
+Split your div into 2 columns, left and right
+<div class="splitter">
+    <div> <!-- left -->
+        <h2>Electronic Engineer</h2>
+        <h2>Machine Learning | Control Systems</h2>
+    </div>
+    <div> <!-- right -->
+        <h2>Trainee</h2>
+    </div>
+</div>
+*/
+
+.splitter {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.splitter > div:nth-child(1) {
+    margin: auto;
+    text-align: left;
+    /* background-color: yellow; */
+}
+
+.splitter > div:nth-child(2) {
+    text-align: right;
+    /* background-color: brown; */
+    flex-grow: 1;
+}
+
+
