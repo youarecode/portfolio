@@ -19,22 +19,28 @@ Split your div into 2 columns, left and right
 
 .splitter > div:nth-child(1) {
     margin: auto;
-    /* text-align: left; */
-    /* background-color: yellow; */
+    margin-right: var(--margin);
+    flex-grow: 1;
+}
+
+.splitter-fix {
+    display: flex;
+    align-items: center;
+}
+
+.splitter-fix > div:nth-child(1) {
+    margin: auto;
     margin-right: var(--margin);
 
     max-width: 50%;
     min-width: 50%;
-    /* flex-grow: 1; */
 }
 
-.splitter > div:nth-child(2) {
-    /* text-align: right; */
+.splitter-fix > div:nth-child(2) {
     max-width: 50%;
     min-width: 50%;
-    /* background-color: brown; */
-    /* flex-grow: 1; */
 }
+
 
 .splitter-left {
     display: flex;

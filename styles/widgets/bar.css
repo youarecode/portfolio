@@ -14,13 +14,12 @@
 }
 
 .bar {
-    /* width: 80%; */
-    margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    /* margin-top: 15px; */
+    /* margin-bottom: 15px; */
+    margin: auto;
 }
 
 .bar > :nth-child(1), .bar > :nth-child(3){ /*the line bar*/
@@ -34,7 +33,7 @@
     display: inline-block;
     padding: 10px;
     color: var(--text-color);
-/*    font-size: 150%;*/
+    font-size: 2vw;
     text-transform: uppercase;
     white-space: nowrap;
 }

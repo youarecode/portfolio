@@ -3,20 +3,13 @@
 @import url('common/colors.css');
 
 :root {
-    --page-width: 65vw;
+    --page-width: 65%;
 }
 
 /* Media query for screens smaller */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     :root {
         --page-width: 100%;
     }
 }
 
-body {
-    font-family: var(--font-family-sans-serif);
-    margin: 0;
-    padding: 0;
-    background-color: var(--gray-dark);
-    overflow-x: hidden;
-}

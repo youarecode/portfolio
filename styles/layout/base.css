@@ -2,6 +2,17 @@
 @import url('common/fonts.css');
 @import url('common/colors.css');
 
+body {
+    font-family: var(--font-family-sans-serif);
+    background-color: var(--gray-dark);
+    /* margin: 0; */
+    /* padding: 0; */
+    /* overflow-x: hidden; */
+    /* margin: auto; */
+}
+/* html { */
+/* } */
+
 
 header {
     background-color: #333;
@@ -21,12 +32,15 @@ a {
 
 h1 {
     font-size: 3vw;
+    color: aqua;
 }
 h2 {
     font-size: 2vw;
+    color: aqua;
 }
 h3 {
     font-size: 1vw;
+    color: aqua;
 }
 
 * {

@@ -15,13 +15,14 @@
     text-transform: uppercase;
     font-weight: bolder;
     color: var(--green);
+    margin: 0;
 }
 
 .top_bar h2{
     text-transform: uppercase;
     font-weight: normal;
     color: var(--gray-med);
-    font-size: 1.5vw;
+    font-size: 2vw;
 }
 
 .top_bar h3{
