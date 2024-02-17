@@ -9,13 +9,13 @@
     align-items: center;
     width: var(--page-width);
     margin: auto;
-    /* margin: 0 var(--margin); */
 }
 
 .top_bar h1{
     text-transform: uppercase;
     font-weight: bolder;
-    font-size: 300%;
+    font-size: 3em;
+    /* font-size: 300%; */
     color: var(--green);
 }
 
