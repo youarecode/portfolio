@@ -13,3 +13,10 @@
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1200px;
 }
+
+/* Media query for screens smaller than 800px */
+@media screen and (max-width: 800px) {
+    :root {
+        --page-width: 100%; /* Cambia el ancho de página a 100% para pantallas menores a 800px */
+    }
+}
