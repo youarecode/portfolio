@@ -20,17 +20,22 @@ Split your div into 2 columns, left and right
 
 .splitter > div:nth-child(1) {
     margin: auto;
-    max-width: 50%;
-    min-width: 50%;
     /* text-align: left; */
     /* background-color: yellow; */
-    margin-right: 20px;
+    margin-right: var(--margin);
+
+    max-width: 50%;
+    min-width: 50%;
+    /* flex-grow: 1; */
 }
 
 .splitter > div:nth-child(2) {
     /* text-align: right; */
+    max-width: 50%;
+    min-width: 50%;
     /* background-color: brown; */
-    flex-grow: 1;
+    /* flex-grow: 1; */
+    /* flex-grow: 1; */
 }
 
 .splitter-left {
@@ -41,8 +46,9 @@ Split your div into 2 columns, left and right
 .splitter-left > div:nth-child(1) {
     margin: auto;
     text-align: left;
-    width: 50%;
+    /* width: 50%; */
     /* background-color: yellow; */
+    /* flex-grow: 1; */
 }
 .splitter-left > div:nth-child(2) {
     text-align: left;
