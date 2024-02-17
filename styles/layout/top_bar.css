@@ -14,14 +14,14 @@
 .top_bar h1{
     text-transform: uppercase;
     font-weight: bolder;
-    font-size: 3em;
     /* font-size: 300%; */
     color: var(--green);
+    font-size: 2em;
 }
 
 .top_bar h2{
+    text-transform: uppercase;
     font-weight: normal;
     color: var(--gray-med);
-    text-transform: uppercase;
-    font-size: 2em;
+    font-size: 3em;
 }
