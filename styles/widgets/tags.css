@@ -36,4 +36,5 @@
     color: black;
     margin: 0.05vw;
     padding: 0.05vw;
+    font-size: var(--font-size-4)
 }
