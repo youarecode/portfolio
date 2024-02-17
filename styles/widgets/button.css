@@ -6,7 +6,7 @@
     border: 1px solid var(--yellow-2);
     border-radius: var(--border-radius);
     margin: 1vw 1vw;
-
+    font-size: var(--font-size-3);
 }
 
 .button:hover {

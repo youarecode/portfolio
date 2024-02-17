@@ -1,10 +1,18 @@
 /* contanct_form.css */
 @import url('common/colors.css');
 @import url('common/margins.css');
+:root {
+    --contact-form-line-height: 2vw;
+}
+@media screen and (max-width: 600px) {
+    :root {
+        --contact-form-line-height: 2.5vw;
+        }
+}
 
 .contact-form {
     text-align: left;
-    line-height: 2vw;
+    line-height: var(--contact-form-line-height);
 }
 .contact-form > :nth-child(1) {
     width: 50%;
@@ -23,7 +31,7 @@
 .contact-form a {
     color: var(--white);
     text-decoration: none;
-    font-size: 1.2vw;
+    font-size: var(--font-size-4);
 }    
 
 

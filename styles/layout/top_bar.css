@@ -2,8 +2,8 @@
 @import url('common/colors.css');
 @import url('common/margins.css');
 @import url('common/fonts.css');
-
 .top_bar {
+
     background-color: var(--gray-dark);
     color: var(--dark-med);
     text-align: left;

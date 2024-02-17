@@ -22,5 +22,5 @@
 .container h3 {
     color: var(--gray-med);
     margin-top: -1%;
-    font-size: var(--font-size-4);
+    font-size: var(--font-size-3);
 }
