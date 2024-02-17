@@ -40,3 +40,7 @@ h2 {
 h3 {
     font-size: smaller;
 }
+
+body {
+    overflow-x: hidden;
+}
