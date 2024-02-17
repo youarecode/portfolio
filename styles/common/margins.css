@@ -14,8 +14,8 @@
     --breakpoint-xl: 1200px;
 }
 
-/* Media query for screens smaller than 800px */
-@media screen and (max-width: 800px) {
+/* Media query for screens smaller */
+@media screen and (max-width: 600px) {
     :root {
         --page-width: 100%;
     }
