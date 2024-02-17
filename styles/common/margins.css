@@ -1,8 +1,11 @@
 /* margins.css */
 
 :root{
-    --margin: 5vw;
-    --margin-2: 10vw;
-    --margin-3: 15vw;
+    --margin: 0.5vw;
+    --margin-2: 1vw;
+    --margin-3: 1.5vw;
+
+    --border-radius: 0.5vw;
+    --border-radius-2: 1vw;
 }
 

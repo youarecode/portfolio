@@ -4,7 +4,9 @@
 .button {
     color: var(--white);
     border: 1px solid var(--yellow-2);
-    border-radius: 5px;
+    border-radius: var(--border-radius);
+    margin: 1vw 1vw;
+
 }
 
 .button:hover {
