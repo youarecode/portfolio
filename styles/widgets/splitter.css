@@ -15,7 +15,6 @@ Split your div into 2 columns, left and right
 .splitter {
     display: flex;
     align-items: center;
-    /* justify-items: center; */
 }
 
 .splitter > div:nth-child(1) {
@@ -34,7 +33,6 @@ Split your div into 2 columns, left and right
     max-width: 50%;
     min-width: 50%;
     /* background-color: brown; */
-    /* flex-grow: 1; */
     /* flex-grow: 1; */
 }
 
