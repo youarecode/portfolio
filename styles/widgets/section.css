@@ -1,7 +1,7 @@
 /* section.css */
 @import url('common/colors.css');
 .container {
-    width: 65%;
+    width: var(--page-width);
     margin: auto;
     color: var(--green);
 }

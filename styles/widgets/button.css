@@ -1,0 +1,13 @@
+/* button.css */
+@import url('common/colors.css');
+
+.button {
+    color: var(--white);
+    border: 1px solid var(--yellow-2);
+    border-radius: 5px;
+}
+
+.button:hover {
+    color: var(--gray-dark);
+    background-color: var(--green-3);
+}

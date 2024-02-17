@@ -19,6 +19,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .bar > :nth-child(1), .bar > :nth-child(3){ /*the line bar*/
@@ -34,6 +36,7 @@
     color: var(--text-color);
     font-size: 150%;
     text-transform: uppercase;
+    white-space: nowrap;
 }
 
 
@@ -58,4 +61,5 @@
     color: var(--text-color);
     font-size: 100%;
     text-transform: uppercase;
+    text-wrap: nowrap;
 }

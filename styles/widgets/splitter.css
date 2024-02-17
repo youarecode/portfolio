@@ -11,7 +11,7 @@ Split your div into 2 columns, left and right
     </div>
 </div>
 */
-
+@import url('common/colors.css');
 .splitter {
     display: flex;
     align-items: center;
@@ -24,6 +24,7 @@ Split your div into 2 columns, left and right
     min-width: 50%;
     /* text-align: left; */
     /* background-color: yellow; */
+    margin-right: 20px;
 }
 
 .splitter > div:nth-child(2) {
@@ -50,3 +51,6 @@ Split your div into 2 columns, left and right
 }
 
 
+.splitter span {
+    color: var(--red-3)
+}
