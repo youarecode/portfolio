@@ -1,22 +1,16 @@
 /* margins.css */
 
 :root{
-    --margin: 5%;
-    --margin-2: 10%;
-    --margin-3: 15%;
+    --margin: 5vw;
+    --margin-2: 10vw;
+    --margin-3: 15vw;
 
-    --page-width: 100%;
-
-    --breakpoint-xs: 0;
-    --breakpoint-sm: 576px;
-    --breakpoint-md: 768px;
-    --breakpoint-lg: 992px;
-    --breakpoint-xl: 1200px;
+    --page-width: 65vw;
 }
 
 /* Media query for screens smaller */
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     :root {
         --page-width: 100%;
     }
-}
+} */
