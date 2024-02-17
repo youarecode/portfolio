@@ -21,4 +21,11 @@
     text-transform: uppercase;
     font-weight: normal;
     color: var(--gray-med);
+    font-size: 1.5vw;
+}
+
+.top_bar h3{
+    text-transform: uppercase;
+    font-weight: normal;
+    color: var(--gray-med);
 }

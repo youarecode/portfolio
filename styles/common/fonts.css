@@ -5,7 +5,3 @@
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-* {
-    letter-spacing: 0.05em;
-    word-spacing: 0.3em;
-}
