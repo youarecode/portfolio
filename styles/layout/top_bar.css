@@ -1,6 +1,7 @@
 /* top_bar.css */
 @import url('common/colors.css');
 @import url('common/margins.css');
+@import url('common/fonts.css');
 
 .top_bar {
     background-color: var(--gray-dark);
@@ -16,13 +17,16 @@
     font-weight: bolder;
     color: var(--green);
     margin: 0;
+    margin-bottom: 1vw;
+    font-size: var(--font-size-1);
 }
 
 .top_bar h2{
     text-transform: uppercase;
     font-weight: normal;
     color: var(--gray-med);
-    font-size: 2vw;
+    font-size: var(--font-size-2);
+    margin: 0;
 }
 
 .top_bar h3{

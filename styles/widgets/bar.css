@@ -11,6 +11,13 @@
 :root {
     --line-color: var(--green);
     --text-color: var(--white);
+    --bar-height: 3px;
+}
+
+@media screen and (max-width: 600px) {
+    :root {
+        --bar-height: 2px;
+        }
 }
 
 .bar {
@@ -24,7 +31,7 @@
 
 .bar > :nth-child(1), .bar > :nth-child(3){ /*the line bar*/
     width: 50%;
-    height: 3px;
+    height: var(--bar-height);
     background-color: var(--line-color);
 }
 
@@ -33,7 +40,7 @@
     display: inline-block;
     padding: 10px;
     color: var(--text-color);
-    font-size: 2vw;
+    font-size: var(--font-size-3);
     text-transform: uppercase;
     white-space: nowrap;
 }

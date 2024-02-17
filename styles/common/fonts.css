@@ -10,3 +10,12 @@
      --font-size-4: 1vw;
 }
 
+
+@media screen and (max-width: 600px) {
+    :root {
+        --font-size-1: 5vw;
+        --font-size-2: 3vw;
+        --font-size-3: 2vw;
+        --font-size-4: 1vw;
+        }
+}
