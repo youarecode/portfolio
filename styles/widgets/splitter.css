@@ -11,7 +11,7 @@ Split your div into 2 columns, left and right
     </div>
 </div>
 */
-@import url('common/colors.css');
+@import url('../common/colors.css');
 .splitter {
     display: flex;
     align-items: center;

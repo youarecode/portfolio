@@ -1,5 +1,5 @@
 /* bar.css */
-@import url('common/colors.css');
+@import url('../common/colors.css');
 /* This is how to use it in the html file
 <div class="bar">
     <div></div>

@@ -1,5 +1,5 @@
 /* button.css */
-@import url('common/colors.css');
+@import url('../common/colors.css');
 
 .button {
     color: var(--white);

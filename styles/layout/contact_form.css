@@ -1,6 +1,6 @@
 /* contanct_form.css */
-@import url('common/colors.css');
-@import url('common/margins.css');
+@import url('../common/colors.css');
+@import url('../common/margins.css');
 :root {
     --contact-form-line-height: 2vw;
 }

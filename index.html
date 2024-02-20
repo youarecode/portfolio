@@ -7,30 +7,33 @@
     
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    
+    <script src="js/main.js"></script>    
     <title>portfolio Eichenbaum</title>
 </head>
 
 <body>
-<header>
-    <a href="https://github.com/youarecode/portfolio/" target="_blank">Feel free to peek inside this site</a>
-</header>
-
-<!-- Top bar -->
-<section class="top_bar">
-    <br>
-    <h1>Eichenbaum Daniel Matias</h1>
-    <div class="splitter">
-        <div> <!-- left -->
+    <header>
+        <a href="https://github.com/youarecode/portfolio/" target="_blank">Feel free to peek inside this site</a>
+    </header>
+    
+    <object type="text/html" data="templates/top_bar.html"></object>
+    <!-- Top bar -->
+    <section class="top_bar">
+        <br>
+        <h1>Eichenbaum Daniel Matias</h1>
+        <div class="splitter">
+            <div>
             <h2>Electronic Engineer</h2>
             <h2>Machine Learning | Control Systems</h2>
         </div>
-        <div> <!-- right -->
+        <div>
             <h2 style="text-align: right;">Trainee</h2>
         </div>
     </div>
 </section>
-    
+
+
+
 <!-- Contact information -->
 <section class="container">
     <div class="bar">
@@ -60,21 +63,21 @@
                     </a>
                 </div>
             </div>
-    </div>
-</section>
-
-
-
-<!-- Personal Projects -->
-<section class="container">
-    <div class="bar">
-        <div></div>
-        <div>Projects</div>
-        <div></div>
-    </div>
-    <!-- Animatronic -->
-    <div class="splitter-fix">
-        <div>
+        </div>
+    </section>
+    
+    
+    
+    <!-- Personal Projects -->
+    <section class="container">
+        <div class="bar">
+            <div></div>
+            <div>Projects</div>
+            <div></div>
+        </div>
+        <!-- Animatronic -->
+        <div class="splitter-fix">
+            <div>
             <h1>Animatronic</h1>
             <h2>Dinosaur Talking Head</h2>
             <div class="bar-left">
@@ -90,58 +93,58 @@
             </h3>
             <h3>I know it is a dissaster right now, sorry for that, 
                 this project was time consuming, but funny to do</h3>
-        </div>
-        <div>
-
-            <img src="media/animatronic_3.jpg" style="width: 100%;">
-            <img src="media/animatronic_1.jpg" style="width: 100%;">
-            <img src="media/animatronic_2.jpg" style="width: 100%;">
-        </div>
-    </div>
-    <br> <!-- Other project -->
-    
-</section>
-
-<!-- Work History -->
-<section class="container">
-    <div class="bar">
-        <div></div>
-        <div>Working History</div>
-        <div></div>
-    </div>
-    <!--BODY HEALTH-->
-    <div class="splitter-fix">
-        <div>
-            <h1>Body Health</h1>
-            <h2>Hardware Engineer</h2>
-            <div class="bar-left">
-                <div></div>
-                <div>07/2023 - 10/2023</div>
             </div>
-            <h3>
-                I’ve developed hardware circuits for improving
-                High Tech Medical Equipment’s quality related to
-                skin health. Also i was actively contributing fixing
-                any sort of issues that arise day to day.
-            </h3>
+            <div>
+                
+                <img src="media/animatronic_3.jpg" style="width: 100%;">
+                <img src="media/animatronic_1.jpg" style="width: 100%;">
+                <img src="media/animatronic_2.jpg" style="width: 100%;">
+            </div>
         </div>
-        <div class="tags">
-            <h3>Frameworks</h3>
-            <ul style="--background-color: var(--green-light);">
-                <li>Altium Designer</li> <li>LTspice</li>
-                <li>Digikey</li>
-            </ul>
-            <h3>Skills</h3>
-            <ul style="--background-color: var(--violet-light);">
-                <li>Probing</li> 
-                <li>Meassuring</li>
-            </ul>
-            <h3>Challanges</h3>
-            <ul style="--background-color: var(--orange-light);">
-                <li>Hardware Design</li> <li>Component selection</li>
-                <li>Modular experimentation</li>
-            </ul>
+        <br> <!-- Other project -->
+        
+    </section>
+    
+    <!-- Work History -->
+    <section class="container">
+        <div class="bar">
+            <div></div>
+            <div>Working History</div>
+            <div></div>
         </div>
+        <!--BODY HEALTH-->
+        <div class="splitter-fix">
+            <div>
+                <h1>Body Health</h1>
+                <h2>Hardware Engineer</h2>
+                <div class="bar-left">
+                    <div></div>
+                    <div>07/2023 - 10/2023</div>
+                </div>
+                <h3>
+                    I’ve developed hardware circuits for improving
+                    High Tech Medical Equipment’s quality related to
+                    skin health. Also i was actively contributing fixing
+                    any sort of issues that arise day to day.
+                </h3>
+            </div>
+            <div class="tags">
+                <h3>Frameworks</h3>
+                <ul style="--background-color: var(--green-light);">
+                    <li>Altium Designer</li> <li>LTspice</li>
+                    <li>Digikey</li>
+                </ul>
+                <h3>Skills</h3>
+                <ul style="--background-color: var(--violet-light);">
+                    <li>Probing</li> 
+                    <li>Meassuring</li>
+                </ul>
+                <h3>Challanges</h3>
+                <ul style="--background-color: var(--orange-light);">
+                    <li>Hardware Design</li> <li>Component selection</li>
+                    <li>Modular experimentation</li>
+                </ul>
+            </div>
     </div>
     <br> <!--UDESA-->
     <div class="splitter-fix">
@@ -161,43 +164,43 @@
             <div style="text-align: center;line-height: 3vw;">
                 <a href="media/Eichenbaum_Daniel_Tesis.pdf" target="_blank" class="button">
                     Read Thesis (spanish only)</a>
-                <br>
-                <span href="" target="_blank" class="button">Try Demo (sorry, not yet)</span>
-
+                    <br>
+                    <span href="" target="_blank" class="button">Try Demo (sorry, not yet)</span>
+                    
+                </div>
+            </div>
+            <div class="tags">
+                <h3>Frameworks</h3>
+                <ul style="--background-color: var(--green-light);">
+                    <li>Hugging Face</li> <li>Pytorch</li> <li>numpy/matplotlib</li>
+                    <li>Latex</li> <li>Google Colab</li> <li>Pandas</li>
+                </ul>
+                <h3>Skills</h3>
+                <ul style="--background-color: var(--violet-light);">
+                    <li>Scientific Reasoning</li> <li>Hypothesis Test</li> 
+                    <li>Cross Validation</li> <li>Bootstrapping</li>
+                    <li>LLM</li>
+                    <li>Thesis Presentation</li>
+                </ul>
+                <h3>Challanges</h3>
+                <ul style="--background-color: var(--orange-light);">
+                    <li>Data Cleaning</li> <li>Data Unbiasing</li>
+                    <li>Data Scarcity</li> <li>Model Fitting</li>
+                </ul>
             </div>
         </div>
-        <div class="tags">
-            <h3>Frameworks</h3>
-            <ul style="--background-color: var(--green-light);">
-                <li>Hugging Face</li> <li>Pytorch</li> <li>numpy/matplotlib</li>
-                <li>Latex</li> <li>Google Colab</li> <li>Pandas</li>
-            </ul>
-            <h3>Skills</h3>
-            <ul style="--background-color: var(--violet-light);">
-                <li>Scientific Reasoning</li> <li>Hypothesis Test</li> 
-                <li>Cross Validation</li> <li>Bootstrapping</li>
-                <li>LLM</li>
-                <li>Thesis Presentation</li>
-            </ul>
-            <h3>Challanges</h3>
-            <ul style="--background-color: var(--orange-light);">
-                <li>Data Cleaning</li> <li>Data Unbiasing</li>
-                <li>Data Scarcity</li> <li>Model Fitting</li>
-            </ul>
-        </div>
-    </div>
-</section>
-
-
-
-
-
-<!-- EDUCATION -->
-<section class="container">
-    <div class="bar">
-        <div></div>
-        <div>Education</div>
-        <div></div>
+    </section>
+    
+    
+    
+    
+    
+    <!-- EDUCATION -->
+    <section class="container">
+        <div class="bar">
+            <div></div>
+            <div>Education</div>
+            <div></div>
     </div>
     <!-- FIUBA -->
     <div class="splitter-fix">
@@ -310,8 +313,8 @@
             - google forms
         </div>
     </section>
-<section style="text-align: center; padding-top: 10%; width: var(--page-width);margin:auto">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScdAJbd3uH8mxytBFvwDdC5V0YTfyxIGLFOnIT24_kMEI4vDg/viewform?embedded=true" width=100% height="1027" frameborder="0">Cargando…</iframe>
-</section>
+    <section style="text-align: center; padding-top: 10%; width: var(--page-width);margin:auto">
+        <iframe id="google-form" src="https://docs.google.com/forms/d/e/1FAIpQLScdAJbd3uH8mxytBFvwDdC5V0YTfyxIGLFOnIT24_kMEI4vDg/viewform?embedded=true" width=100% height="1027" frameborder="0">Cargando…</iframe>
+    </section>
 </body>
 </html>

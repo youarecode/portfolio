@@ -1,6 +1,6 @@
 /* base.css */
-@import url('common/fonts.css');
-@import url('common/colors.css');
+@import url('../common/fonts.css');
+@import url('../common/colors.css');
 
 body {
     font-family: var(--font-family-sans-serif);

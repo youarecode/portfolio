@@ -1,5 +1,5 @@
 /* tags.css */
-@import url('common/colors.css');
+@import url('../common/colors.css');
 
 :root {
     --background-color: var(white);
