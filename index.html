@@ -75,7 +75,42 @@
             <div>Projects</div>
             <div></div>
         </div>
-        <!-- Animatronic -->
+        <!-- DEMENTIA PREDICTION -->
+        <div class="splitter-fix">
+            <div id="dementia_prediction">
+            <h1>Dementia Prediction</h1>
+            <h2>Deployed Large Language Model</h2>
+            <div class="bar-left">
+                <div></div>
+                <div>2011</div>
+            </div>
+                <h3>
+                    This project was a collaboration between UdeSA and me to develop an automatic 
+                    dementia detector. The model was finetuned from the spanish 'Longformer Narrativa' model.
+                    The data for training and testing was given by 
+                    <a href="https://udesa.edu.ar/cnc" target="_blank">UdeSA (Centro de Neurociencias Cognitivo)</a>, and it is subject to intellectual 
+                    properties right.</h3>
+                <h3>                    
+                    Note that the model was trained for spanish only speakers. Otherwise i can't guaranteed the predicted accuracy.
+                </h3>
+                <h3>
+                    The model weights 500mb for alzheimer disease, and 500mb for FTDbv disease. So both of them
+                    won't fit inside a free web host. So the way i found to share to you is through a tunneling to 
+                    my personal computer.
+                </h3>
+                    
+
+                    <p>To try it out ask me to run the server. And visit the following link</p>
+                    <div style="text-align: center;"><a href="https://l056lvmm-8000.brs.devtunnels.ms/" target="_blank" class="button">
+                        Try demo</a>
+                        <a href="#UDESA" class="button">Read paper</a>
+                    </div>
+            </div>
+            <div>
+                <img src="media/dementia_prediction.jpg" style="width: 100%;">
+            </div>
+        </div>
+        <hr> <!-- Animatronic -->
         <div class="splitter-fix">
             <div>
             <h1>Animatronic</h1>
@@ -101,7 +136,6 @@
                 <img src="media/animatronic_2.jpg" style="width: 100%;">
             </div>
         </div>
-        <br> <!-- Other project -->
         
     </section>
     
@@ -146,9 +180,9 @@
                 </ul>
             </div>
     </div>
-    <br> <!--UDESA-->
+    <hr> <!--UDESA-->
     <div class="splitter-fix">
-        <div>
+        <div id="UDESA">
             <h1>UdeSA (CNC)</h1>
             <h2>Data Science</h2>
             <div class="bar-left">
@@ -163,9 +197,8 @@
             </h3>
             <div style="text-align: center;line-height: 3vw;">
                 <a href="media/Eichenbaum_Daniel_Tesis.pdf" target="_blank" class="button">
-                    Read Thesis (spanish only)</a>
-                    <br>
-                    <span href="" target="_blank" class="button">Try Demo (sorry, not yet)</span>
+                    Read Thesis</a>
+                <a href="#dementia_prediction" class="button">Try Demo</a>
                     
                 </div>
             </div>
