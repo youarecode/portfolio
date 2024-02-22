@@ -13,11 +13,13 @@
     --text-color: var(--white);
     --text-color-left: var(--green);
     --bar-height: 3px;
+    --bar-margin: 10vw
 }
 
 @media screen and (max-width: 600px) {
     :root {
         --bar-height: 2px;
+        --bar-margin: 5vw
         }
 }
 
@@ -27,7 +29,7 @@
     justify-content: center;
     /* margin-top: 15px; */
     /* margin-bottom: 15px; */
-    margin: 10vh auto;
+    margin: var(--bar-margin) auto;
 }
 
 .bar > :nth-child(1), .bar > :nth-child(3){ /*the line bar*/
