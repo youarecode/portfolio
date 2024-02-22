@@ -7,7 +7,7 @@
 }
 
 .tags {
-    padding: 0;
+    padding: 1vw 0;
     margin: 0 auto;
     background-color: white;
     border-radius: var(--border-radius);
